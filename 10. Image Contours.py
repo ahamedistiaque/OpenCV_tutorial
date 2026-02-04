@@ -1,4 +1,4 @@
-# """mage contours in Python are detected using OpenCV (cv2), typically 
+# """Image contours in Python are detected using OpenCV (cv2), typically 
 involving loading an image, converting to grayscale, applying thresholding or edge detection (like Canny) to create a binary image, and using cv2.findContours().""" 
 
 import cv2
@@ -25,4 +25,5 @@ cv2.drawContours(img, contours, -1, (0, 255, 0), 2)
 cv2.imshow("Contours", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 
