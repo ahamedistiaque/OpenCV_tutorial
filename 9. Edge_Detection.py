@@ -1,3 +1,6 @@
+# """Edge Detection is a technique in image processing and computer vision, used to identify sharp changes in brightness that 
+typically signify object boundaries, edges, lines, or textures."""
+
 import cv2
 
 # Read original image in color
@@ -17,3 +20,4 @@ cv2.imshow("Edges", edges)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
