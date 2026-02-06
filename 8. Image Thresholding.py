@@ -1,3 +1,5 @@
+# """Image Thresholding is a fundamental image processing 
+technique used to segment an image into foreground and background, converting grayscale images into binary (black and white) images based on pixel intensities"""
 import cv2
 
 # Read original in color
@@ -19,3 +21,4 @@ cv2.imshow("Inverse Binary", thresh_inv)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
