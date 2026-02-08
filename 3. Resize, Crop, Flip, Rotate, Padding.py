@@ -1,3 +1,11 @@
+"""
+This code performs basic image manipulations using OpenCV, 
+including resizing, cropping, horizontal flipping, and 
+rotating an image by 45 degrees. It also adds a black 
+border (padding) around the image and displays all the 
+processed versions in separate windows.
+"""
+
 import cv2
 
 img = cv2.imread('bird2.jpg')
@@ -29,3 +37,4 @@ cv2.imshow("Padded", padded)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
