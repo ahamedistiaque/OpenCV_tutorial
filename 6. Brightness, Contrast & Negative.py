@@ -1,3 +1,6 @@
+"""This code loads an image and applies linear intensity transformations to adjust 
+brightness, enhance contrast, and generate a negative image, then displays all results."""
+
 import cv2
 import numpy as np
 
@@ -23,3 +26,4 @@ cv2.imshow("Negative", negative)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
