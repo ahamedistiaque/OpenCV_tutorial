@@ -1,5 +1,5 @@
 """
-Template Matching - Clean Working Version
+Template Matching - 
 
 Features:
 1. Safe image loading
@@ -79,3 +79,4 @@ cv2.imshow("Detection Result", img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
