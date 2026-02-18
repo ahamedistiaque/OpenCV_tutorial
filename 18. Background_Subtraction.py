@@ -1,5 +1,5 @@
 """
-Background Subtraction & Motion Detection Tutorial
+Background Subtraction & Motion Detection
 
 Topics Covered:
 1. MOG2 background subtractor
@@ -80,3 +80,4 @@ while True:
 # -------------------------------
 cap.release()
 cv2.destroyAllWindows()
+
