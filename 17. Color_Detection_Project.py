@@ -1,5 +1,5 @@
 """
-Real-Time Color Detection Project
+Real-Time Color Detection
 
 Topics Covered:
 1. HSV Trackbars for live color selection
@@ -89,3 +89,4 @@ while True:
 # -------------------------------
 cap.release()
 cv2.destroyAllWindows()
+
