@@ -1,5 +1,5 @@
 """
-Geometric Transformations Tutorial (Advanced)
+Geometric Transformations  (Advanced)
 
 Geometric transformations change the spatial position of pixels.
 
@@ -99,3 +99,4 @@ cv2.imshow("Perspective", perspective)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
