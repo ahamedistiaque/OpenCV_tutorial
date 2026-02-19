@@ -1,5 +1,5 @@
 """
-Video Processing Basics Tutorial
+Video Processing Basics
 
 In this tutorial we cover:
 
@@ -89,3 +89,4 @@ while True:
 cap.release()
 out.release()
 cv2.destroyAllWindows()
+
