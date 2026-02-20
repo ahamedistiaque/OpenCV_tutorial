@@ -1,5 +1,5 @@
 """
-Feature Detection & Keypoints Tutorial
+Feature Detection & Keypoints
 
 Topics Covered:
 1. Harris Corner Detection
@@ -83,3 +83,4 @@ cv2.imshow("ORB Feature Matching", img_matches)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
