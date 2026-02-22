@@ -1,5 +1,5 @@
 """
-Deep Learning with OpenCV DNN - Auto Download Example
+Deep Learning with OpenCV DNN - 
 """
 #problem ase
 import cv2
@@ -66,3 +66,4 @@ cv2.putText(img, f"{label}: {confidence:.2f}", (10,30),
 cv2.imshow("Image Classification", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
